@@ -1,5 +1,8 @@
 package co.com.facebook.screenplay.model.user;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class User {
  private String nombre;
  private String apellido;
@@ -10,6 +13,15 @@ public class User {
  private String mesNacimiento;
  private String anoNacimiento;
  private String genero;
+ private List<String> friendList = new ArrayList<>();
+
+ public List<String> getFriendList() {
+  return friendList;
+ }
+
+ public void setFriendList(List<String> friendList) {
+  this.friendList = friendList;
+ }
 
  public String getNombre() {
   return nombre;
@@ -47,8 +59,8 @@ public class User {
   return contra;
  }
 
- public void setContra(String contraseña) {
-  this.contra = contraseña;
+ public void setContra(String contra) {
+  this.contra = contra;
  }
 
  public String getDiaNacimiento() {

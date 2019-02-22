@@ -1,7 +1,6 @@
 package co.com.facebook.screenplay.tasks.user;
 
 import co.com.facebook.screenplay.model.entities.CurrentUserEntity;
-import co.com.facebook.screenplay.model.user.User;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 
@@ -11,7 +10,7 @@ public class UserDataTask implements Task {
 
     private List<String> data;
 
-    public UserDataTask(List data) {
+    public UserDataTask(List<String> data) {
         this.data = data;
     }
 
