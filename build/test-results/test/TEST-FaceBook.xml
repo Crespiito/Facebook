@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FaceBook" tests="1" skipped="1" failures="0" errors="0" timestamp="2019-02-21T00:50:28" hostname="CHMEPPF0YX4Y9" time="0.076">
+  <properties/>
+  <testcase name="Test 1" classname="FaceBook" time="0.076">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.serenitybdd.core.Serenity - TEST PENDING
+[Test worker] INFO net.serenitybdd.core.Serenity - TEST PENDING
+[Test worker] INFO net.serenitybdd.core.Serenity - TEST PENDING
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: Test 1
+---------------------------------------------------------------------------------
+]]></system-err>
+</testsuite>
