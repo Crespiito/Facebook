@@ -32,7 +32,7 @@ public class FaceBookStepDefinition {
 
     @Given("^(.*) joined Facebook with my peronsal information$")
     public void uploadTheTransactionData(String actor , List<String> data) {
-        theActorCalled(actor).wasAbleTo(LoadTaskFactory.UserData(data));
+        theActorCalled(actor).wasAbleTo(LoadTaskFactory.userData(data));
         theActorInTheSpotlight().attemptsTo(OpenTask.faceBookPage());
         theActorInTheSpotlight().attemptsTo(FillFormTaskFactory.logIn());
 
