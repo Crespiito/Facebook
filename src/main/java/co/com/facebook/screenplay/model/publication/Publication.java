@@ -1,0 +1,13 @@
+package co.com.facebook.screenplay.model.publication;
+
+public class Publication {
+    private String message;
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+}
